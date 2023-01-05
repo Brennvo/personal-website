@@ -1,0 +1,10 @@
+{% extends "layouts/base.njk" %} {% block content %}
+<article>
+  <heading>
+    <h1 class="post-title">{{ title }}</h1>
+    {{ page.date | formatDate }}
+  </heading>
+  <hr class="post-header-divider" />
+  {{ content | safe }}
+</article>
+{% endblock %}

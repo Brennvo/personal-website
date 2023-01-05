@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include "partials/html-head.njk" %}
+  <body class="content-wrapper">
+    {% include "partials/site-nav.njk" %}
+    <main>
+      {% block content %}
+
+      {{ content | safe }}
+
+      {% endblock %}
+    </main>
+  </body>
+</html>
