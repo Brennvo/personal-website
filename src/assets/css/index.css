@@ -21,21 +21,22 @@
   --space-xxl: calc(5.25 * var(--space-unit));
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: var(--black);
-    --foreground: var(--white);
-  }
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
 html {
   font-size: 100%;
+  height: 100%;
 }
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: var(--black);
+  height: 100%;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.8;
@@ -92,8 +93,9 @@ nav ul > li:not(:first-child) {
 ----------------------------------------------- */
 .chalkboard {
   font-family: 'Walter Turncoat', cursive;
+  font-size: 18px;
   position: relative;
-  min-height: 12.5em;
+  min-height: 15em;
   max-width: 30em;
   position: relative;
   border: 6px solid burlywood;
@@ -104,7 +106,6 @@ nav ul > li:not(:first-child) {
 
 .chalkboard__title {
   padding-top: 0;
-  margin-bottom: 1.25em;
   display: inline-block;
 }
 
@@ -168,6 +169,10 @@ nav ul > li:not(:first-child) {
 }
 
 @media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--black);
+    --foreground: var(--white);
+  }
   body {
     background: var(--black);
     color: var(--white);

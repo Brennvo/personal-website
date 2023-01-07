@@ -64,5 +64,7 @@ I joined the web development community right around the time that web applicatio
 
 <details>
 <summary>I relocated to Austin, Texas.</summary>
+<p>
 Right now, I'm happily living on the east side of Austin. I've switched jobs (still building web applications), and ultimately feel like a new person. Additionally, thanks to my girlfriend, I've enjoyed traveling, drinking all sorts of coffee, and trying new foods. She's converted me to a foodie pretty quickly, but most importantly, helped me become more confident in myself.
+</p>
 </details>
