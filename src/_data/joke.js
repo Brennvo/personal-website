@@ -1,10 +1,12 @@
+const EleventyFetch = require('@11ty/eleventy-fetch');
 const WORKER_URL = 'https://daily-joke.catherby.workers.dev/';
 
 async function getJoke() {
   try {
-    const res = await fetch(WORKER_URL);
-    const data = await res.json();
-    const { setup, delivery } = data;
+    const { setup, delivery } = await EleventyFetch(WORKER_URL, {
+      duration: '1d',
+      type: 'json',
+    });
     return { setup, delivery };
   } catch (e) {
     console.error(e);
