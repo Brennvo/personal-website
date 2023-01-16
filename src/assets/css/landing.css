@@ -1,182 +1,96 @@
-.box,
+body {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-content: flex-end;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding: var(--space-lg);
+  max-width: 1200px;
+}
+
+/* Navigation component */
 nav {
-  max-width: unset;
-  margin: unset;
-  padding-left: var(--space-md);
-  padding-right: var(--space-md);
+  margin: 0;
+  flex-shrink: 1;
+  padding: 0 var(--space-lg);
 }
-
-nav ul a {
-  font-size: 1.3em;
-}
-
 nav ul li:first-child {
-  display: none;
+  display: none; /* Hide link to home page */
 }
-
 nav ul li:not(:first-child):nth-child(2) {
   margin-left: 0;
 }
-
-body {
-  display: flex;
-  flex-flow: column-reverse;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  padding-left: 0;
-  padding-right: 0;
+nav a {
+  font-size: 1.3em;
 }
 
-.box {
-  position: relative;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  padding-left: var(--space-md);
-  padding-right: var(--space-md);
-  flex-basis: 300px;
-  flex-basis: 18.75em;
-
-  background: var(--accent);
-  color: var(--black);
-  border-bottom: 10px solid var(--foreground);
-}
-
-.box h1 {
-  margin: 0;
-  font-size: 2.7em;
+/* Global overrides */
+h1 {
   width: unset;
 }
-
-.box h1::after {
+h1::after {
   display: none;
 }
 
-/* chalkboard
------------------------------------------------ */
-.chalkboard {
-  font-family: 'Walter Turncoat', cursive;
-  font-size: 18px;
-  position: relative;
-  min-height: 15em;
-  max-width: 30em;
-  position: relative;
-  border: 6px solid burlywood;
-  background: var(--black);
-  color: var(--white);
-  padding: 1.25em;
-}
-
-.chalkboard__title {
-  padding-top: 0;
-  display: inline-block;
-}
-
-.chalkboard__text {
-  margin-top: 0;
-}
-
-.chalkboard__joke-pun {
-  display: inline-block;
-  margin-top: var(--space-xs);
-  text-decoration: underline;
-  transform: rotatez(-2deg);
-}
-
-.chalkboard summary {
-  margin: 0;
-}
-
-.chalkboard summary:hover {
-  opacity: 90%;
-}
-
-.chalkboard details {
-  margin-top: 0;
-}
-
-.chalk,
-.eraser {
-  position: absolute;
-  bottom: 0;
-}
-
-.chalk {
-  height: 10px;
-  width: 30px;
-  background: var(--white);
-  border-radius: 0.15em;
-  left: 15px;
-}
-
-.eraser {
-  height: 15px;
-  width: 40px;
-  background: var(--billiard-green);
-  border-radius: 0.1em;
-  left: 45px;
-}
-
-.tooltip-btn {
-  border: none;
-  padding: var(--space-sm);
-  margin-left: var(--space-xs);
-  background: var(--white);
+/* Box component */
+.box {
+  padding: var(--space-lg);
+  padding: var(--space-md);
+  height: min-content;
+  background: var(--accent);
   color: var(--black);
-  display: inline-flex;
-  align-items: center;
-  width: 0.3em;
-  height: 0.3em;
-  justify-content: center;
-  /* font-size: var(--text-sm); */
+  box-shadow: 10px 10px 0 var(--jet-black);
+  flex-basis: 300px;
+  flex-grow: 0;
+  margin: 0 0 0 -10px; /* Offset 10px box-shadow so the box appears centered */
+}
+.box h1 {
+  margin: 0;
+  font-size: 2.2em;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 500px) {
   body {
-    display: flex;
-    flex-flow: row-reverse;
-    align-items: flex-start;
-    justify-content: center;
-    height: max-content;
-    padding-top: 100px;
+    align-items: center;
+  }
+}
+
+@media (min-width: 655px) {
+  body {
+    align-content: center;
+  }
+}
+
+@media (min-width: 655px) {
+  nav ul a {
+    font-size: 1.5em;
   }
 
   .box {
-    flex-basis: 500px;
-    flex-basis: 31.25rem;
-    border-bottom: none;
-    border-right: 2px solid var(--black);
-    box-shadow: 10px 10px 0 var(--black);
+    flex-basis: 400px;
     padding: var(--space-lg);
   }
+  .box h1 {
+    font-size: 2.85em;
+  }
+}
 
+@media (min-width: 1100px) {
+  .box {
+    flex-basis: 500px;
+    padding: var(--space-lg);
+  }
   .box h1 {
     font-size: 3.65em;
   }
 
-  nav {
-    margin-left: 20px;
-    align-self: center;
+  nav ul a {
+    font-size: 2em;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   .box {
-    border-bottom: 10px solid var(--jet-black);
     color: var(--jet-black);
-  }
-  .chalkboard {
-    background: var(--billiard-green);
-  }
-
-  .eraser {
-    background: var(--black);
-  }
-}
-
-@media (prefers-color-scheme: dark) and (min-width: 800px) {
-  .box {
-    box-shadow: 10px 10px 0 var(--jet-black);
-    border-bottom: none;
   }
 }
