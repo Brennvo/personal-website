@@ -1,35 +1,23 @@
 body {
   display: flex;
-  flex-wrap: wrap-reverse;
-  align-content: flex-end;
+  align-content: center;
   flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
   justify-content: center;
-  padding: var(--space-lg);
+
   max-width: 1200px;
+  padding: var(--space-lg);
 }
 
 /* Navigation component */
 nav {
-  margin: 0;
   flex-shrink: 1;
+
+  margin: 0;
   padding: 0 var(--space-lg);
-}
-nav ul li:first-child {
-  display: none; /* Hide link to home page */
-}
-nav ul li:not(:first-child):nth-child(2) {
-  margin-left: 0;
 }
 nav a {
   font-size: 1.3em;
-}
-
-/* Global overrides */
-h1 {
-  width: unset;
-}
-h1::after {
-  display: none;
 }
 
 /* Box component */
@@ -52,12 +40,6 @@ h1::after {
 @media (min-width: 500px) {
   body {
     align-items: center;
-  }
-}
-
-@media (min-width: 655px) {
-  body {
-    align-content: center;
   }
 }
 

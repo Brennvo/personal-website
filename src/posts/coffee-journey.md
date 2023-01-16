@@ -1,6 +1,6 @@
 ---
 date: 2022-09-05
-layout: layouts/post.njk
+layout: layouts/blog-post.njk
 tags: post
 title: My Coffee Journey
 permalink: /blog/coffee-journey/index.html

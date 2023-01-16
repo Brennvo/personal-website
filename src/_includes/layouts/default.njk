@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include "partials/html-head.njk" %} {% block stylesheets %}
-  <link rel="stylesheet" href="/assets/css/layouts/landing.css" />
+  <link rel="stylesheet" href="/assets/css/layouts/default.css" />
   {% endblock %}
   <body>
-    <nav>
+    <nav class="content-wrapper">
       <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
         <li>
           <a href="/about">About</a>
         </li>
@@ -18,7 +21,7 @@
       </ul>
     </nav>
 
-    <main class="box">
+    <main class="content-wrapper">
       {% block content %}
 
       {{ content | safe }}

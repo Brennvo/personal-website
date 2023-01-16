@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/default.njk
 permalink: /contact/index.html
 title: Brennan's Website
 ---

@@ -1,6 +1,6 @@
 ---
 date: 2021-09-12
-layout: layouts/post.njk
+layout: layouts/blog-post.njk
 tags: post
 title: Purpose
 permalink: /blog/purpose/index.html
