@@ -1,3 +1,21 @@
-{% extends "layouts/base.njk" %} {% block css %}
-<link rel="stylesheet" href="../assets/css/landing.css" />
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}" />
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="/assets/css/landing.css" />
+  </head>
+  <body>
+    {% include "partials/site-nav.njk" %}
+    <main class="box">
+      {% block content %}
+
+      {{ content | safe }}
+
+      {% endblock %}
+    </main>
+  </body>
+</html>
