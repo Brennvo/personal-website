@@ -57,6 +57,7 @@ nav.content-wrapper {
   body {
     background-image: none;
   }
+}
 @media (min-width: 633px) {
   body {
     font-size: 1.2em;
