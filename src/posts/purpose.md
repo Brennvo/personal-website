@@ -2,7 +2,7 @@
 date: 2021-09-12
 layout: layouts/blog-post.njk
 tags: post
-title: Purpose
+title: Purpose of Blogging
 permalink: /blog/purpose/index.html
 ---
 
