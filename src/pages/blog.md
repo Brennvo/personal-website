@@ -9,7 +9,7 @@ title: Brennan's Blog
 <ul>
 {% for post in collections.post %}
   <li>
-    <a href="{{post.data.permalink}}">{{ post.data.title }} : {{ post.data.date | formatDate }}</a>
+    <a href="{{post.data.permalink}}">{{ post.data.title }}</a> - <time datetime="{{ page.date | dateTime }}">{{ post.data.date | prettyDate }}</time>
   </li>
 {% endfor %}
 </ul>
