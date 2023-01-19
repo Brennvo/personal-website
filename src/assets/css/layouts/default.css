@@ -37,7 +37,7 @@ nav.content-wrapper {
 ----------------------------------------------- */
 .foreground {
   min-height: 100%;
-  padding: 0 var(--space-sm);
+  padding: 0 var(--space-sm) var(--space-md) var(--space-sm);
 
   background: var(--background);
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
