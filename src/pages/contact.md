@@ -2,6 +2,7 @@
 layout: layouts/default.njk
 permalink: /contact/index.html
 title: Brennan's Website
+description: Contact Brennan Arvo
 ---
 
 # Contact

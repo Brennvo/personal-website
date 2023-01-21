@@ -2,6 +2,7 @@
 layout: layouts/default.njk
 permalink: /blog/index.html
 title: Brennan's Blog
+description: Brennan Arvo's blog
 ---
 
 # Brennan's Blog
