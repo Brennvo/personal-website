@@ -80,9 +80,6 @@ nav ul {
 nav ul a {
   font-size: 1em;
 }
-nav ul a:hover {
-  font-style: italic;
-}
 nav ul li:not(:first-child) {
   margin-left: 20px;
 }
