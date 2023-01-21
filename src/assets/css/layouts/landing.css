@@ -1,6 +1,7 @@
 body {
   display: flex;
   align-content: center;
+  align-items: center;
   flex-direction: row-reverse;
   flex-wrap: wrap-reverse;
   justify-content: center;
@@ -8,13 +9,11 @@ body {
   max-width: 1200px;
   padding: var(--space-sm);
 
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 /* Navigation component */
 nav {
-  flex-shrink: 1;
-
   margin: 0;
   padding: 0 var(--space-lg);
 }
@@ -24,25 +23,25 @@ nav a {
 
 /* Box component */
 .box {
+  flex-basis: 15.625em;
+  margin: 0 0 0 -10px; /* Offset 10px box-shadow so the box appears centered */
   padding: var(--space-lg);
   padding: var(--space-md);
-  height: min-content;
+
   background: var(--accent);
   color: var(--black);
+
   box-shadow: 10px 10px 0 var(--jet-black);
-  flex-basis: 300px;
-  flex-basis: 15.625em;
-  flex-grow: 0;
-  margin: 0 0 0 -10px; /* Offset 10px box-shadow so the box appears centered */
 }
 .box h1 {
   margin: 0;
   font-size: 2.2em;
 }
 
-@media (min-width: 500px) {
+/* Media queries */
+@media (min-width: 325px) /* once we pass iPhone SE width */ {
   body {
-    align-items: center;
+    font-size: 1.3em;
   }
 }
 
