@@ -7,7 +7,7 @@ title: Brennan's Blog
 # Brennan's Blog
 
 <ul>
-{% for post in collections.post %}
+{% for post in collections.post | reverse %}
   <li>
     <a href="{{post.data.permalink}}">{{ post.data.title }}</a> - <time datetime="{{ page.date | dateTime }}">{{ post.data.date | prettyDate }}</time>
   </li>
