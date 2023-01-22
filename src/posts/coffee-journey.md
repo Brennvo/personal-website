@@ -56,11 +56,73 @@ Amazed at what the baristas were explaining to me, I continued talking to them a
 
 At this point, I was determined to learn how to brew specialty coffee at home so that I didn't need to venture out to a coffee shop every day. My first coffee related purchase was a [book by James Hoffman titled "The World Atlas of Coffee"](http://www.theworldatlasofcoffee.com/). Although this book did in fact touch on coffee brewing techniques, I bought it with the intent to better understand the coffee bean itself. I figured it would help me appreciate what I was drinking, and also help me make more informed purchases when it came to buying coffee equipment. For the following two weeks, I'd wake up and read the book for an hour after grabbing a hot cup of coffee across the street from [Flitch Coffee](http://www.flitchcoffee.com/) (another coffee trailer).
 
-<ul>
-{%- for post in collections.post -%}
-  <li>{{ post.data.title }}</li>
-{%- endfor -%}
-</ul>
+<details>
+  <summary>
+    My main takeaways from the book were that coffee beans come from a
+    harvested fruit that can be processed in a variety of ways, and
+    that there are many techniques to brewing coffee. Both of these
+    together greatly influence the resulting taste of a brewed cup of
+    coffee.
+  </summary>
+
+  <ul>
+    <li>
+      Coffee is a fruit that comes from a plant
+      <ul>
+        <li>
+          <a
+            href="https://www.eattheweeds.com/wp-content/uploads/2020/12/unnamed.jpg"
+            target="_blank"
+            >It looks like a cherry</a
+          >
+        </li>
+      </ul>
+    </li>
+    <li>The coffee bean is actually the seed of the coffee fruit</li>
+    <li>
+      Removing the seed from the coffee fruit (called coffee
+      processing) can be done in a variety of ways
+      <ul>
+        <li>
+          Two common techniques:
+          <ul>
+            <li>Natural processing: tends to make coffee fruitier</li>
+            <li>
+              Washed processing: usually results in a "classic" coffee
+              flavor
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>
+      Before being roasted,
+      <a
+        href="https://media.istockphoto.com/photos/green-coffee-beans-background-picture-id1215781496"
+        target="_blank"
+        >coffee beans (i.e., the seeds) are green</a
+      >
+    </li>
+    <li>
+      There are three primary ways of brewing coffee, simplified as:
+      <ul>
+        <li>
+          Immersion: you immerse coffee grounds in hot water , e.g.,
+          French press
+        </li>
+        <li>
+          Percolation: you pour hot water over ground coffee, .e.g.,
+          drip coffee
+        </li>
+        <li>
+          Espresso: coffee is ground so finely that you need a machine
+          to press hot water through it, e.g., shot of espresso,
+          Americano
+        </li>
+      </ul>
+    </li>
+  </ul>
+</details>
 
 Upon finishing the book, I wanted to get my hands dirty. In order to brew my own coffee, I needed the means to do it. Many text message exchanges and internet searches later, I ended up with the following items:
 
