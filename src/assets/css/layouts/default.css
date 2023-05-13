@@ -57,6 +57,9 @@ nav.content-wrapper {
   body {
     background-image: none;
   }
+  .foreground {
+    box-shadow: none;
+  }
 }
 @media (min-width: 1200px) {
   body {
