@@ -1,5 +1,7 @@
 # Brennan's Website
 
+https://brennanarvo.com
+
 ## Table of Contents
 
 - [About](#about)
@@ -29,10 +31,12 @@ mkdir brennvo
 cd ./brennvo
 ```
 
-Next, clone the repository and install dependencies:
+Next, clone the repository, navigate into it, and install dependencies:
 
 ```console
 git clone https://github.com/Brennvo/personal-website.git
+
+cd ./personal-website
 
 npm install
 ```
