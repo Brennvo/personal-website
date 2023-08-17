@@ -1,3 +1,5 @@
+const mathjaxPlugin = require('eleventy-plugin-mathjax');
+
 module.exports = (config) => {
   config.addFilter('prettyDate', (date) => {
     const UTCString = date.toUTCString();
@@ -11,6 +13,10 @@ module.exports = (config) => {
     return str.replaceAll(regex, '-');
   });
   config.addPassthroughCopy('src/assets/css');
+  config.addPassthroughCopy('src/assets/images');
+  config.addPlugin(mathjaxPlugin, {
+    output: 'svg',
+  });
   config.addWatchTarget('./src/assets/css/');
   return {
     markdownTemplateEngine: 'njk',

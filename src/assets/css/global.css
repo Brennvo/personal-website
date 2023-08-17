@@ -21,6 +21,10 @@
   --space-lg: calc(2 * var(--space-unit));
   --space-xl: calc(3.25 * var(--space-unit));
   --space-xxl: calc(5.25 * var(--space-unit));
+
+  /* misc */
+  --box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
 *,
@@ -84,6 +88,39 @@ nav ul li:not(:first-child) {
   margin-left: 20px;
 }
 
+/* figure
+----------------------------------------------- */
+figure {
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: var(--box-shadow);
+  margin: var(--space-lg) auto;
+}
+
+figure img {
+  display: block; /* Removes gap underneath image */
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+  color: var(--jet-black);
+  background: var(--accent);
+  padding: var(--space-xxs) 0;
+}
+
+figure .MathJax {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.MathJax {
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: var(--black);
@@ -96,5 +133,12 @@ nav ul li:not(:first-child) {
 
   a {
     color: white;
+  }
+
+  figure {
+    box-shadow: inset 0 0 0.5px 1px hsla(0, 0%, 100%, 0.075),
+      /* shadow ring 👇 */ 0 0 0 1px hsla(0, 0%, 0%, 0.05),
+      /* multiple soft shadows 👇 */ 0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
+      0 0.9px 1.5px hsla(0, 0%, 0%, 0.045), 0 3.5px 6px hsla(0, 0%, 0%, 0.09);
   }
 }
