@@ -70,11 +70,7 @@ At this point, I was determined to learn how to brew specialty coffee at home so
       Coffee is a fruit that comes from a plant
       <ul>
         <li>
-          <a
-            href="https://www.eattheweeds.com/wp-content/uploads/2020/12/unnamed.jpg"
-            target="_blank"
-            >It looks like a cherry</a
-          >
+          <a href="https://www.eattheweeds.com/wp-content/uploads/2020/12/unnamed.jpg" target="_blank">It looks like a cherry</a>
         </li>
       </ul>
     </li>
@@ -97,11 +93,9 @@ At this point, I was determined to learn how to brew specialty coffee at home so
     </li>
     <li>
       Before being roasted,
-      <a
-        href="https://media.istockphoto.com/photos/green-coffee-beans-background-picture-id1215781496"
-        target="_blank"
-        >coffee beans (i.e., the seeds) are green</a
-      >
+      <a href="https://media.istockphoto.com/photos/green-coffee-beans-background-picture-id1215781496" target="_blank">
+        coffee beans (i.e., the seeds) are green
+      </a>
     </li>
     <li>
       There are three primary ways of brewing coffee, simplified as:
