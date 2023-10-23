@@ -125,3 +125,15 @@ Right now, I'm happily living on the east side of Austin. I've switched jobs (st
 
 </div>
 </details>
+
+<!-- Divider -->
+
+<details>
+<summary>I enrolled as a part-time student at Austin Community College</summary>
+
+<div>
+<p>
+Although I have a degree in information technology, I've always wanted to peel a layer of the onion back and better understand the fundamental theories and principles of computation. As such, I enrolled at Austin Community College in hopes to enroll in classes in a computer science department (regardless of where it is) in the future.
+<p>
+</div>
+</details>
