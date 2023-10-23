@@ -25,6 +25,8 @@ I went to a small, parochial school nested in the woods of Clifton, Virginia. At
 </div>
 </details>
 
+<!-- Divider -->
+
 <details>
 <summary>My childhood revolved around baseball.</summary>
 
@@ -43,6 +45,8 @@ While baseball could be stressful and time consuming, I walked away with a solid
 
 </div>
 </details>
+
+<!-- Divider -->
 
 <details>
 <summary>I liked the Internet more than video games.</summary>
@@ -64,6 +68,8 @@ I want to believe it's this exposure to the web that has influenced me to pursue
 </div>
 </details>
 
+<!-- Divider -->
+
 <details>
 <summary>I studied information technology at Virginia Tech.</summary>
 
@@ -84,6 +90,8 @@ This intrinsic motivation to learn, coupled with Professor Lewis's teaching styl
 </div>
 </details>
 
+<!-- Divider -->
+
 <details>
 <summary>I got a job building web applications.</summary>
 
@@ -103,6 +111,8 @@ I joined the web development community right around the time that web applicatio
 
 </div>
 </details>
+
+<!-- Divider -->
 
 <details>
 <summary>I relocated to Austin, Texas.</summary>
