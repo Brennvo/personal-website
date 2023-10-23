@@ -62,8 +62,19 @@ h1 {
 
 /* disclosure
 ----------------------------------------------- */
+details {
+  margin-bottom: var(--space-xs);
+}
+
 details summary:hover {
   cursor: pointer;
+}
+
+details > :nth-child(2) {
+  margin-left: 5px;
+  margin-top: 20px;
+  padding-left: 15px;
+  border-left: 3px solid lightgray;
 }
 
 /* links
@@ -83,7 +94,19 @@ nav ul {
 }
 nav ul a {
   font-size: 1em;
+  text-decoration: none;
 }
+
+nav ul a.active,
+nav ul a:active,
+nav ul a:hover,
+nav ul a:focus {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
+}
+
 nav ul li:not(:first-child) {
   margin-left: 20px;
 }
@@ -140,5 +163,9 @@ figure .MathJax {
       /* shadow ring 👇 */ 0 0 0 1px hsla(0, 0%, 0%, 0.05),
       /* multiple soft shadows 👇 */ 0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
       0 0.9px 1.5px hsla(0, 0%, 0%, 0.045), 0 3.5px 6px hsla(0, 0%, 0%, 0.09);
+  }
+
+  details > :nth-child(2) {
+    border-left-color: darkgray;
   }
 }

@@ -65,57 +65,59 @@ At this point, I was determined to learn how to brew specialty coffee at home so
     coffee.
   </summary>
 
-  <ul>
-    <li>
-      Coffee is a fruit that comes from a plant
-      <ul>
-        <li>
-          <a href="https://www.eattheweeds.com/wp-content/uploads/2020/12/unnamed.jpg" target="_blank">It looks like a cherry</a>
-        </li>
-      </ul>
-    </li>
-    <li>The coffee bean is actually the seed of the coffee fruit</li>
-    <li>
-      Removing the seed from the coffee fruit (called coffee
-      processing) can be done in a variety of ways
-      <ul>
-        <li>
-          Two common techniques:
-          <ul>
-            <li>Natural processing: tends to make coffee fruitier</li>
-            <li>
-              Washed processing: usually results in a "classic" coffee
-              flavor
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li>
-      Before being roasted,
-      <a href="https://media.istockphoto.com/photos/green-coffee-beans-background-picture-id1215781496" target="_blank">
-        coffee beans (i.e., the seeds) are green
-      </a>
-    </li>
-    <li>
-      There are three primary ways of brewing coffee, simplified as:
-      <ul>
-        <li>
-          Immersion: you immerse coffee grounds in hot water , e.g.,
-          French press
-        </li>
-        <li>
-          Percolation: you pour hot water over ground coffee, .e.g.,
-          drip coffee
-        </li>
-        <li>
-          Espresso: coffee is ground so finely that you need a machine
-          to press hot water through it, e.g., shot of espresso,
-          Americano
-        </li>
-      </ul>
-    </li>
-  </ul>
+  <div>
+    <ul>
+      <li>
+        Coffee is a fruit that comes from a plant
+        <ul>
+          <li>
+            <a href="https://www.eattheweeds.com/wp-content/uploads/2020/12/unnamed.jpg" target="_blank">It looks like a cherry</a>
+          </li>
+        </ul>
+      </li>
+      <li>The coffee bean is actually the seed of the coffee fruit</li>
+      <li>
+        Removing the seed from the coffee fruit (called coffee
+        processing) can be done in a variety of ways
+        <ul>
+          <li>
+            Two common techniques:
+            <ul>
+              <li>Natural processing: tends to make coffee fruitier</li>
+              <li>
+                Washed processing: usually results in a "classic" coffee
+                flavor
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        Before being roasted,
+        <a href="https://media.istockphoto.com/photos/green-coffee-beans-background-picture-id1215781496" target="_blank">
+          coffee beans (i.e., the seeds) are green
+        </a>
+      </li>
+      <li>
+        There are three primary ways of brewing coffee, simplified as:
+        <ul>
+          <li>
+            Immersion: you immerse coffee grounds in hot water , e.g.,
+            French press
+          </li>
+          <li>
+            Percolation: you pour hot water over ground coffee, .e.g.,
+            drip coffee
+          </li>
+          <li>
+            Espresso: coffee is ground so finely that you need a machine
+            to press hot water through it, e.g., shot of espresso,
+            Americano
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
 </details>
 
 Upon finishing the book, I wanted to get my hands dirty. In order to brew my own coffee, I needed the means to do it. Many text message exchanges and internet searches later, I ended up with the following items:
