@@ -36,7 +36,7 @@ I started playing baseball within the Little League Baseball organization at an 
 </p>
 
 <p>
-Come high school, I was solely focused on [pitching](https://simple.wikipedia.org/wiki/Pitcher). I liked this position for its art form; although the idea of throwing a baseball to the opposing player is straightforward, it's up to each pitcher to craft their own technique that works best for them.
+Come high school, I was solely focused on <a target="_blank" href="https://simple.wikipedia.org/wiki/Pitcher">pitching</a>. I liked this position for its art form; although the idea of throwing a baseball to the opposing player is straightforward, it's up to each pitcher to craft their own technique that works best for them.
 </p>
 
 <p>
@@ -80,7 +80,7 @@ I realized that I enjoyed learning in college. And no, I don't mean memorizing i
 </p>
 
 <p>
-Anyways, the first class I ever remember being excited to attend in the harsh winters of Blacksburg was my introduction to Java programming course (taught by "Twitter famous" [John Lewis](https://twitter.com/johnlewis?s=20&t=lUOvcnwxS3418s1tNL-qaQ)). Given my past experience playing RuneScape (a Java-based computer game) and overall interest surrounding the Internet, it felt like the perfect orchestration of everything I had ever enjoyed outside of my baseball hobby. What a perfect way to figure out what I wanted to do for a living.
+Anyways, the first class I ever remember being excited to attend in the harsh winters of Blacksburg was my introduction to Java programming course (taught by "Twitter famous" <a target="_blank" href="https://twitter.com/johnlewis?s=20&t=lUOvcnwxS3418s1tNL-qaQ">John Lewis</a>. Given my past experience playing RuneScape (a Java-based computer game) and overall interest surrounding the Internet, it felt like the perfect orchestration of everything I had ever enjoyed outside of my baseball hobby. What a perfect way to figure out what I wanted to do for a living.
 </p>
 
 <p>
