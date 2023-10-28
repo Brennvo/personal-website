@@ -70,10 +70,12 @@ details summary:hover {
   cursor: pointer;
 }
 
-details > :nth-child(2) {
-  margin-left: 5px;
-  margin-top: 20px;
-  padding-left: 15px;
+/* expanded content
+----------------------------------------------- */
+.expanded-content {
+  margin-left: var(--space-xxs);
+  margin-top: var(--space-sm);
+  padding-left: var(--space-sm);
   border-left: 3px solid lightgray;
 }
 
