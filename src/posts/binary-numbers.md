@@ -1,12 +1,12 @@
 ---
-date: 2024-03-28
+date: 2024-03-30
 layout: layouts/blog-post.njk
 tags: post
 title: Binary Numbers
 permalink: /blog/binary-numbers/index.html
 ---
 
-I've been reading [Code: The Hidden Language of Computer Hardware and Software, 2nd edition, by Charles Petzold](https://codehiddenlanguage.com/Chapter00/), and have really come to admire Petzold's style of writing. I especially like the way he introduces the concept of binary numbers with cartoon characters. Binary numbers, unlike the numbers we use everyday, consist of _only_ 1s and 0s. For example, the number "29" (the day of the month this post was published) is written as "11101" in binary. At first, this concept can be difficult to grasp, but Petzold explains binary numbers in a way that makes them feel a lot less intimidating, and instead, a lot more practical. In this post, I'd like to reinforce some of his explanations with illustrations and expand a bit more on the foundations he builds for the readers of his book.
+I've been reading [Code: The Hidden Language of Computer Hardware and Software, 2nd edition, by Charles Petzold](https://codehiddenlanguage.com/Chapter00/), and have really come to admire Petzold's style of writing. I especially like the way he introduces the concept of binary numbers with cartoon characters. Binary numbers, unlike the numbers we use everyday, consist of _only_ 1s and 0s. For example, the number "30" (the day of the month this post was published) is written as "11110" in binary. At first, this concept can be difficult to grasp, but Petzold explains binary numbers in a way that makes them feel a lot less intimidating, and instead, a lot more practical. In this post, I'd like to reinforce some of his explanations with illustrations and expand a bit more on the foundations he builds for the readers of his book.
 
 First, we'll start with the theory behind number systems with an analogy to the way we communicate colors. Then, we'll relearn how to count on our fingers so that we can count along with a snowman. Finally, we'll end the post by counting with a penguin, which will leave us with a much better understanding of how to interpret binary numbers.
 
