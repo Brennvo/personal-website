@@ -98,7 +98,7 @@ If we use a dartboard as an analogy, it would be like stating how many inches ou
 <figure>
   <picture>
     <source
-      srcset="../../assets/images/dark/dart-board.svg"
+      srcset="../../assets/images/dark/posts/going-back-to-school/dart-board.svg"
       media="(prefers-color-scheme: dark)"
     />
     <img
@@ -106,7 +106,7 @@ If we use a dartboard as an analogy, it would be like stating how many inches ou
       style="margin: 0 auto; padding: 32px 0; max-width: 400px"
       width="75%"
       alt="A dartboard with two arrows; one 10-inches to the left of the bullseye, and the other 10-inches to the right of the bullseye."
-      src="../../assets/images/light/dart-board.svg"
+      src="../../assets/images/light/posts/going-back-to-school/dart-board.svg"
     />
   </picture>
   <figcaption>
@@ -125,7 +125,7 @@ If we were to visualize this inequality using the dartboard analogy, it would be
 <figure>
   <picture>
     <source
-      srcset="../../assets/images/dark/dart-board-with-circle.svg"
+      srcset="../../assets/images/dark/posts/going-back-to-school/dart-board-with-circle.svg"
       media="(prefers-color-scheme: dark)"
     />
     <img
@@ -133,7 +133,7 @@ If we were to visualize this inequality using the dartboard analogy, it would be
       style="margin: 0 auto; padding: 32px 0; max-width: 250px"
       width="75%"
       alt="A dartboard with a 10-inch radius circle drawn from the center bullseye."
-      src="../../assets/images/light/dart-board-with-circle.svg"
+      src="../../assets/images/light/posts/going-back-to-school/dart-board-with-circle.svg"
     />
   </picture>
   <figcaption>
@@ -146,7 +146,7 @@ Now, taking this analogy and applying it to the number line looks as follows:
 <figure>
   <picture>
     <source
-      srcset="../../assets/images/dark/number-line.svg"
+      srcset="../../assets/images/dark/posts/going-back-to-school/number-line.svg"
       media="(prefers-color-scheme: dark)"
     />
     <img
@@ -154,7 +154,7 @@ Now, taking this analogy and applying it to the number line looks as follows:
       style="display: block; margin: 0 auto; padding: 32px 0"
       width="95%"
       alt="A number line with two endpoints at -10 and 10, non-inclusive, forming a line to represent an inequality less than 10."
-      src="../../assets/images/light/number-line.svg"
+      src="../../assets/images/light/posts/going-back-to-school/number-line.svg"
     />
   </picture>
   <figcaption>
@@ -231,14 +231,14 @@ Maybe the most fundamental shift in my note taking was never erasing my mistakes
 <figure>
   <picture style="display: block;">
     <source
-      srcset="../../assets/images/dark/note-example.png"
+      srcset="../../assets/images/dark/posts/going-back-to-school/note-example.png"
       media="(prefers-color-scheme: dark)"
     />
     <img
       class="excalidraw"
       style="max-width: 400px; width: 100%"
       alt="An example showing how I color-code my notes. Subsection headings are colored purple, concepts are colored black, practice problems are colored pink, and mistakes are colored in red."
-      src="../../assets/images/light/note-example.png"
+      src="../../assets/images/light/posts/going-back-to-school/note-example.png"
     />
   </picture>
   <figcaption>

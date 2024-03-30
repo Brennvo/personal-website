@@ -51,6 +51,20 @@ nav.content-wrapper {
   max-width: 40.625em;
 }
 
+/* image
+----------------------------------------------- */
+.image {
+  display: block;
+  background: var(--white);
+  padding: var(--space-md);
+  max-width: 100%;
+  margin: var(--space-xl) auto;
+}
+
+.image--elevated {
+  box-shadow: var(--box-shadow);
+}
+
 /* media queries
 ----------------------------------------------- */
 @media (prefers-color-scheme: dark) {

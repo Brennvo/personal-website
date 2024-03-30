@@ -117,13 +117,26 @@ nav ul li:not(:first-child) {
 ----------------------------------------------- */
 figure {
   max-width: 400px;
+  max-width: 100%;
   margin: 0 auto;
   box-shadow: var(--box-shadow);
-  margin: var(--space-lg) auto;
+  margin: var(--space-xl) auto;
+}
+
+figure.figure--borderless {
+  box-shadow: none;
+}
+
+figure.figure--full-width {
+  max-width: none;
 }
 
 figure img {
   display: block; /* Removes gap underneath image */
+  /* max-width: calc(100vw - var(--space-md) - var(--space-md)); */
+  padding: var(--space-md);
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 figcaption {
@@ -131,6 +144,7 @@ figcaption {
   text-align: center;
   color: var(--jet-black);
   background: var(--accent);
+  margin-top: var(--space-xs);
   padding: var(--space-xxs) 0;
 }
 
