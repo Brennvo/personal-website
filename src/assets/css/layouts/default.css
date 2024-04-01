@@ -71,6 +71,9 @@ nav.content-wrapper {
   body {
     background-image: none;
   }
+  .text--inverted-bg {
+    background: var(--white);
+  }
   .foreground {
     box-shadow: none;
   }

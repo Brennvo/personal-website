@@ -6,7 +6,7 @@ title: Binary Numbers
 permalink: /blog/binary-numbers/index.html
 ---
 
-I've been reading [Code: The Hidden Language of Computer Hardware and Software, 2nd edition, by Charles Petzold](https://codehiddenlanguage.com/Chapter00/), and have really come to admire Petzold's style of writing. I especially like the way he introduces the concept of binary numbers with cartoon characters. Binary numbers, unlike the numbers we use everyday, consist of _only_ 1s and 0s. For example, the number "30" (the day of the month this post was published) is written as "11110" in binary. At first, this concept can be difficult to grasp, but Petzold explains binary numbers in a way that makes them feel a lot less intimidating, and instead, a lot more practical. In this post, I'd like to reinforce some of his explanations with illustrations and expand a bit more on the foundations he builds for the readers of his book.
+I've been reading [Code: The Hidden Language of Computer Hardware and Software, 2nd edition, by Charles Petzold](https://codehiddenlanguage.com/Chapter00/), and have really come to admire Petzold's style of writing. I especially like the way he introduces the concept of binary numbers with cartoon characters. Binary numbers, unlike the numbers we use everyday, consist of _only_ 1s and 0s. For example, the number "30" is written as "11110" in binary. At first, this concept can be difficult to grasp, but Petzold explains binary numbers in a way that makes them feel a lot less intimidating, and instead, a lot more practical. In this post, I'd like to reinforce some of his explanations with illustrations and expand a bit more on the foundations he builds for the readers of his book.
 
 First, we'll start with the theory behind number systems with an analogy to the way we communicate colors. Then, we'll relearn how to count on our fingers so that we can count along with a snowman. Finally, we'll end the post by counting with a penguin, which will leave us with a much better understanding of how to interpret binary numbers.
 
@@ -263,9 +263,9 @@ Wow! That looks strange, huh? Indeed it does, but remember that this representat
 
 > <i>"These numbers might look large, but they're really not. It's more accurate to say that [penguin numbers] get long very quickly rather than large."</i>
 
-And now you might be asking yourself, how would the snowman add 1 to 99? Well, actually, the snowman has no idea what "9" even is. In fact, they don't know anything about 6, 7, 8, or 9 because their anatomy only requires them to know 0, 1, 2, 3, 4, and 5. So, for a snowman to add 1 to 99, we'd first have to convert 99 into digits they're able comprehend.
+And now you might be asking yourself, how would the snowman add 1 to 99? Well, actually, the snowman has no idea what "9" even is. In fact, they don't know anything about 6, 7, 8, or 9 because their anatomy only requires them to know 0, 1, 2, 3, 4, and 5. So, for a snowman to add 1 to 99, we'd first have to convert 99 into digits they're able to comprehend.
 
-This is just like how we (humans) don't know of any **single** digits that represent quantities greater than or equal to 10. For instance, let's say that a 12-armed starfish identified the quantity of "ten" as the single character "🟢", eleven as "🔵", and twelve as "🟣".
+This is just like how we (humans) don't know of any **single-digits** that represent quantities greater than or equal to ten. In comparison, a 12-armed starfish _does_ have an anatomy that would benefit from single-digit characters to represent quantities ten and eleven, because they run out of counting fingers at quantity twelve. For instance, let's say that a 12-armed starfish identified "ten" as the single character "<span class="text--inverted-bg">💲</span>", eleven as "<span class="text--inverted-bg">➰</span>".
 
 <img
   class="image"
@@ -273,7 +273,7 @@ This is just like how we (humans) don't know of any **single** digits that repre
   src="../../assets/images/light/posts/binary-numbers/starfish/starfish.svg"
 />
 
-If a starfish asked us to add "1 + 🟢", we wouldn't know which quantity the second operand is referring to, which means we couldn't give it an answer. Even more confusing would be if the starfish asked us to add "🔵 + 🟣". In order to do any of these additions, we'd need the colored circles translated to human equivalent numbers, i.e., 10, 11, and 12 respectively (notice how each consists of two digits). Now, we can emphasize with the snowman when we asked it to add 1 to 99.
+If a starfish asked us to add "1 + <span class="text--inverted-bg">💲</span>", we wouldn't know which quantity the second operand (i.e. <span class="text--inverted-bg">💲</span>) is referring to, which means we couldn't respond with an answer. Even more confusing would be if the starfish asked us to add "<span class="text--inverted-bg">💲</span> + <span class="text--inverted-bg">➰</span>". In order to do either of these additions, we'd need the symbols translated to human equivalent digits, i.e., 10 and 11 (notice how each consists of two digits.) Now, we can emphasize with the snowman when we asked it to add 1 to 99.
 
 ### Counting with penguin anatomy
 
@@ -289,7 +289,7 @@ When we counted coffee beans with the other doodles, we skipped some along the w
 
 So far, the penguin and us (humans) agree on the representation of the very first quantity. However, for the next quantity, we're _already_ at the penguins last counting finger, which like previously mentioned, means the penguin already needs to use 10 (1 _pause_ 0):
 
-> _> *...we can can conceptualize the two digits "10" as a way of expressing that we've exhausted all of our counting fingers.*_
+> _> *...we can conceptualize the two digits "10" as a way of expressing that we've exhausted all of our counting fingers.*_
 
 <img
   class="image"
@@ -321,7 +321,7 @@ If 10&nbsp;+&nbsp;10&nbsp;=&nbsp;100 is throwing you off, think back to how we w
   src="../../assets/images/light/posts/binary-numbers/comics/10+10.svg"
 />
 
-Now, we might be able to see why the penguin referred to five coffee beans as "101". If we count the next coffee bean, we'll add "1" to "100":
+If we count the next coffee bean, we'll add "1" to "100":
 
 <img
   class="image"
@@ -329,7 +329,7 @@ Now, we might be able to see why the penguin referred to five coffee beans as "1
   src="../../assets/images/light/posts/binary-numbers/penguin/counting-101-coffee-beans-alt.svg"
 />
 
-And alas, we now have an explanation for the penguin's representation of five coffee beans as 101. If you keep on counting to a tenth coffee bean (not pictured in the images above), you'll eventually find yourself at "1010", which would then explain the penguin's representation of ten coffee beans.
+And alas, we now have an explanation for the penguin's representation of five coffee beans as 101. If you keep on counting to a tenth coffee bean, you'll eventually find yourself at "1010", which would then explain the penguin's representation of ten coffee beans.
 
 ## Wrapping up
 
