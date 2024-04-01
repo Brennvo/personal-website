@@ -1,5 +1,5 @@
 ---
-date: 2024-03-30
+date: 2024-03-31
 layout: layouts/blog-post.njk
 tags: post
 title: Binary Numbers
