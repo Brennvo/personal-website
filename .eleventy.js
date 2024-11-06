@@ -15,6 +15,7 @@ module.exports = (config) => {
   config.addPassthroughCopy('src/assets/css');
   config.addPassthroughCopy('src/assets/images');
   config.addPassthroughCopy('src/assets/favicon');
+  config.addPassthroughCopy('_headers');
   config.addPlugin(mathjaxPlugin, {
     output: 'svg',
   });
