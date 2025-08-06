@@ -3,3 +3,14 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: same-origin
   Content-Security-Policy: default-src 'none'; img-src 'self'; style-src 'self'; manifest-src 'self'; upgrade-insecure-requests; form-action 'none'; base-uri 'none'; frame-ancestors 'none'
+
+# Due to the use of eleventy-plugin-mathjax (which generates inline `<style>` and `style` attributes), this policy includes `'unsafe-inline'` under `style-src`.
+# Additionally, to override the match-all header above (`/*`), we must first detach it using the `!` syntax.
+# https://developers.cloudflare.com/pages/configuration/headers/#detach-a-header
+# Ideally, this should be migrated to a stricter policy using hashes or a build-time transform.
+/blog/going-back-to-school*
+  ! Content-Security-Policy
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Content-Security-Policy: default-src 'none'; img-src 'self'; style-src 'self' 'unsafe-inline'; manifest-src 'self'; upgrade-insecure-requests; form-action 'none'; base-uri 'none'; frame-ancestors 'none'
