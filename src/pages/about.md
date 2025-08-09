@@ -144,3 +144,18 @@ Although I have a degree in information technology, I've always wanted to peel a
 <p>
 </div>
 </details>
+
+<!-- Divider -->
+
+<details>
+<summary>I enrolled as a part-time student at Oregon State University</summary>
+
+<div class="expanded-content">
+<p>
+In the spring of 2024, I officially enrolled in <a target="_blank" href="https://ecampus.oregonstate.edu/online-degrees/undergraduate/computer-science-postbacc/">Oregon State's postbaccalaureate computer science program</a>. This program was designed for people like me who want a second undergraduate degree.
+</p>
+<p>
+Since I don't live in Corvallis, I take all of my courses online. However, I'm still in the same classes as on-campus students who opt for the virtual sections.
+</p>
+</div>
+</details>
