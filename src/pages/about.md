@@ -136,26 +136,16 @@ In no particular order, here are some of my favorite things about where I live:
 <!-- Divider -->
 
 <details>
-<summary>I enrolled as a part-time student at Austin Community College</summary>
+<summary>I enrolled as a part-time computer science student</summary>
 
 <div class="expanded-content">
 <p>
-Although I have a degree in information technology, I've always wanted to peel a layer of the onion back and better understand the fundamental theories and principles of computation. As such, I enrolled at Austin Community College in hopes to enroll in classes in a computer science department (regardless of where it is) in the future.
+Although I have a degree in information technology, I've always wanted to peel back another layer of the onion and gain a deeper understanding of the fundamental theories and principles of computation.
 <p>
-</div>
-</details>
-
-<!-- Divider -->
-
-<details>
-<summary>I enrolled as a part-time student at Oregon State University</summary>
-
-<div class="expanded-content">
 <p>
-In the spring of 2024, I officially enrolled in <a target="_blank" href="https://ecampus.oregonstate.edu/online-degrees/undergraduate/computer-science-postbacc/">Oregon State's postbaccalaureate computer science program</a>. This program was designed for people like me who want a second undergraduate degree.
+To start, I enrolled in math classes at Austin Community College to prepare for a computer science program. After completing those courses, I enrolled in <a target="_blank" href="https://ecampus.oregonstate.edu/online-degrees/undergraduate/computer-science-postbacc/">Oregon State University's postbaccalaureate computer science program</a>, designed for people like me who want a second undergraduate degree.
 </p>
-<p>
-Since I don't live in Corvallis, I take all of my courses online. However, I'm still in the same classes as on-campus students who opt for the virtual sections.
+<p>Since I don't live in Corvallis, I take all of my courses online. However, I'm still in the same classes as on-campus students who opt for the virtual sections.
 </p>
 </div>
 </details>
