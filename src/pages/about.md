@@ -12,12 +12,16 @@ I created this website to document my journeys and serve as a way for others to 
 ## A Little Bit About Me
 
 <details>
-<summary>I was a shy elementary school student</summary>
+<summary>I was a shy kid</summary>
 
 <div class="expanded-content">
 
 <p>
 I attended a small elementary school in Clifton, Virginia. I was quiet, shy, and a homebody who couldn't wait to get home after a long day of school to devour a sleeve of Oreos while watching television.
+</p>
+
+<p>
+Now of days, though, I love good conversations and meeting new people.
 </p>
 
 </div>
@@ -26,7 +30,7 @@ I attended a small elementary school in Clifton, Virginia. I was quiet, shy, and
 <!-- Divider -->
 
 <details>
-<summary>The Internet was my childhood playground</summary>
+<summary>I loved the Internet</summary>
 
 <div class="expanded-content">
 
@@ -48,7 +52,7 @@ In retrospect, it's fitting that I ended up with a career in web development.
 <!-- Divider -->
 
 <details>
-<summary>Baseball was a big part of my youth</summary>
+<summary>I played baseball</summary>
 
 <div class="expanded-content">
 <p>
@@ -69,16 +73,12 @@ Although baseball was a stressful, time-consuming activity, I walked away with a
 <!-- Divider -->
 
 <details>
-<summary>I studied information technology at Virginia Tech</summary>
+<summary>I studied information technology in college</summary>
 
 <div class="expanded-content">
 
 <p>
-I was what people would probably consider "no fun" in college. I spent a significant amount of time buried in my studies; I was hungry to learn and fascinated with what I was reading. School curriculum finally felt applicable.
-</p>
-
-<p>
-At the start of my junior year, we began writing software applications, which I quickly developed a passion for. Creating my own software put me in a state of flow that was borderline therapeutic, and something that I knew I wanted to continue to pursuing.
+I attended <a target="_blank" href="https://www.vt.edu">Virginia Tech</a> in Blacksburg, Virginia. I took my studies very seriously. By the time I graduated, I had come to realize that I <i>love</i> learning, especially about technology.
 </p>
 
 </div>
@@ -87,16 +87,12 @@ At the start of my junior year, we began writing software applications, which I 
 <!-- Divider -->
 
 <details>
-<summary>I landed my first job as a web developer in the Washington, D.C. metropolitan area</summary>
+<summary>I got my first job</summary>
 
 <div class="expanded-content">
 
 <p>
-When searching for my first job out of college, I did everything I could to ensure that I would wake up excited to go to work everyday. For me, this meant finding something that would have me contributing to any semblance of a software application used by people.
-</p>
-
-<p>
-Sure enough, I ended up on a team in which I spent my first day happily and willingly staying after work with a colleague to inspect our <a target="_blank" href="https://chat.openai.com/share/4649cf74-641b-4feb-956e-5cee35169fbb">web application's network traffic</a>, solely to appease my own curiosity and fascination. This memorable moment was when I knew I had gotten what I was after.
+I got my first job as a web developer in the Washington, D.C. metropolitan area. I spent my first day happily and willingly staying after work with a colleague to inspect our <a target="_blank" href="https://chat.openai.com/share/4649cf74-641b-4feb-956e-5cee35169fbb">web application's network traffic</a>, solely to appease my own curiosity and fascination; I loved my team and what we did.
 </p>
 
 </div>
@@ -110,23 +106,21 @@ Sure enough, I ended up on a team in which I spent my first day happily and will
 <div class="expanded-content">
 
 <p>
-Even leading up to college, I knew that I eventually wanted to relocate. Where exactly I wanted to move was always up in the air (although I do recall being content with the idea of living in Oregon), but I had an itch to get out of Virginia and try someplace new.
-</p>
-
-<p>
-Two years into my first job, I felt like it was finally time. I deemed Austin, Texas and Phoenix, Arizona as my two candidates. After some phone calls, research, and nerves, I decided to move to Austin, and I couldn't be more happy.
+I desperately wanted to relocate out of the Washington, D.C. metropolitan area. Two years into my first job, I felt like it was finally time. I deemed Austin and Phoenix my two candidates. After some phone calls, research, and nerves, I decided to move to Austin, and I couldn't be more happy.
 </p>
 
 <p>
 In no particular order, here are some of my favorite things about where I live:
 <ul>
-  <li>The people</li>
+  <li>Laid back culture</li>
+  <li>Expressive people</li>
+  <li>Coffee scene/culture</li>
+  <li>Dog friendly</li>
+  <li>Warm winters</li>
+  <li><a target="_blank" href="https://en.wikipedia.org/wiki/H-E-B">H-E-B</a></li>
   <li><a target="_blank" href="https://en.wikipedia.org/wiki/Lady_Bird_Lake#Ann_and_Roy_Butler_Hike-and-Bike_Trail_and_Boardwalk">Lady Bird Lake Hike & Bike Trail</a></li>
   <li><a target="_blank" href="https://en.wikipedia.org/wiki/Barton_Springs_Pool">Barton Springs Pool</a></li>
-  <li>Coffee scene and culture</li>
-  <li><a target="_blank" href="https://www.annabellechairlegs.com/">Local music</a></li>
-  <li>Amount of dogs you see throughout the city</li>
-  <li>Relatively warmer winters</li>
+  <li>Lots of great <a target="_blank" href="https://www.annabellechairlegs.com/">local artists</a></li>
 </ul>
 </p>
 
