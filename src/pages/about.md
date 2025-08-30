@@ -87,7 +87,7 @@ I attended <a target="_blank" href="https://www.vt.edu">Virginia Tech</a> in Bla
 <!-- Divider -->
 
 <details>
-<summary>I got my first job</summary>
+<summary>I got my first job as a web developer</summary>
 
 <div class="expanded-content">
 
@@ -106,7 +106,7 @@ I got my first job as a web developer in the Washington, D.C. metropolitan area.
 <div class="expanded-content">
 
 <p>
-I desperately wanted to relocate out of the Washington, D.C. metropolitan area. Two years into my first job, I felt like it was finally time. I deemed Austin and Phoenix my two candidates. After some phone calls, research, and nerves, I decided to move to Austin, and I couldn't be more happy.
+I desperately wanted to relocate out of the Washington, D.C. metropolitan area. Two years into my first job, I felt like it was finally time. I eventually I deemed Austin and Phoenix my two candidates. After some phone calls, research, and nerves, I decided to move to Austin, and I couldn't be more happy.
 </p>
 
 <p>
