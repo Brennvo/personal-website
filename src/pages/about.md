@@ -47,7 +47,7 @@ This is my digital space. I created this website using a static site generator n
 <details>
   <summary>I studied information technology in college</summary>
   <p>
-  I attended <a target="_blank" href="https://www.vt.edu">Virginia Tech</a> in Blacksburg, Virginia. I took my studies very seriously. Come graduation, I realized that I love learning, <i>especially</i> about technology.
+    I attended <a target="_blank" href="https://www.vt.edu">Virginia Tech</a> in Blacksburg, Virginia. I took my studies very seriously. Come graduation, I realized that I love learning, <i>especially</i> about technology.
   </p>
 </details>
 
@@ -56,7 +56,7 @@ This is my digital space. I created this website using a static site generator n
 <details>
   <summary>I got my first job as a web developer</summary>
   <p>
-  I got my first job as a web developer in the Washington, D.C. metropolitan area. I spent my first day happily and willingly staying after work with a colleague to inspect our <a target="_blank" href="https://chat.openai.com/share/4649cf74-641b-4feb-956e-5cee35169fbb">web application's network traffic</a> for fun. I loved my team and what we did.
+    I got my first job as a web developer in the Washington, D.C. metropolitan area. I spent my first day happily and willingly staying after work with a colleague to inspect our <a target="_blank" href="https://chat.openai.com/share/4649cf74-641b-4feb-956e-5cee35169fbb">web application's network traffic</a> for fun. I loved my team and what we did.
   </p>
 </details>
 
@@ -88,11 +88,12 @@ This is my digital space. I created this website using a static site generator n
 <details>
   <summary>I enrolled as a part-time computer science student</summary>
   <p>
-  Although I have a degree in information technology, I've always wanted to peel back another layer of the onion and gain a deeper understanding of the fundamental theories and principles of computation.
+    Ever since graduating with an information technology degree, I've become more interested in theoretical computer science and lower-level programming.
   <p>
   <p>
-  To start, I enrolled in math classes at Austin Community College to prepare for a computer science program. After completing those courses, I enrolled in <a target="_blank" href="https://ecampus.oregonstate.edu/online-degrees/undergraduate/computer-science-postbacc/">Oregon State University's postbaccalaureate computer science program</a>, designed for people like me who want a second undergraduate degree.
+    Hence, I've enrolled as a part-time student in <a href="https://ecampus.oregonstate.edu/online-degrees/undergraduate/computer-science-postbacc/">Oregon State University's postbaccalaureate computer science program</a>. It was designed for people just like me who want a second undergraduate degree in computer science.
   </p>
-  <p>Since I don't live in Corvallis, I take all of my courses online. However, I'm still in the same classes as on-campus students who opt for the virtual sections.
+  <p>
+    However, since I don't live in Corvallis, I must take all of the virtual course offerings. Fortunately, they're the exact same courses offered to on-campus students.
   </p>
 </details>
