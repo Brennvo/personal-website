@@ -5,6 +5,8 @@ html {
   --nav-border-color: #dbddec;
   --link-color: #0066cc;
   --link-color-visited: #5a2ca0;
+  --code-bg-color: #e5e5e5;
+  --code-border-color: #050505;
 }
 
 body {
@@ -51,6 +53,19 @@ img {
 
 img.full-width {
   width: 100%;
+}
+
+pre {
+  background-color: var(--code-bg-color);
+  border: 1px solid var(--code-border-color);
+  padding: 0.5em 1em;
+  font-weight: bold;
+  overflow-x: auto;
+}
+
+code:not(pre code) {
+  font-weight: bold;
+  background-color: var(--code-bg-color);
 }
 
 a {
