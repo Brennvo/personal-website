@@ -1,4 +1,5 @@
 const mathjaxPlugin = require('eleventy-plugin-mathjax');
+const syntaxHighlightPlugin = require('@11ty/eleventy-plugin-syntaxhighlight');
 
 module.exports = (config) => {
   config.addFilter('prettyDate', (date) => {
@@ -19,6 +20,7 @@ module.exports = (config) => {
   config.addPlugin(mathjaxPlugin, {
     output: 'svg',
   });
+  config.addPlugin(syntaxHighlightPlugin);
   config.addWatchTarget('./src/assets/css/');
   return {
     markdownTemplateEngine: 'njk',

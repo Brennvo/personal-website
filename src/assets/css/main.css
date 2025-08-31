@@ -55,19 +55,6 @@ img.full-width {
   width: 100%;
 }
 
-pre {
-  background-color: var(--code-bg-color);
-  border: 1px solid var(--code-border-color);
-  padding: 0.5em 1em;
-  font-weight: bold;
-  overflow-x: auto;
-}
-
-code:not(pre code) {
-  font-weight: bold;
-  background-color: var(--code-bg-color);
-}
-
 a {
   color: var(--link-color);
 }

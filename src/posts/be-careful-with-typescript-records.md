@@ -1,6 +1,6 @@
 ---
 date: 2025-08-30
-layout: layouts/blog-post.njk
+layout: layouts/code-blog-post.njk
 tags: post
 title: Be Careful With TypeScript Records
 permalink: /blog/be-careful-with-typescript-records/index.html
