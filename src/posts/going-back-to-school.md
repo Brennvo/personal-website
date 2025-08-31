@@ -95,24 +95,10 @@ First, we need to understand how the absolute value affects our approach to this
 
 If we use a dartboard as an analogy, it would be like stating how many inches our shot is away from the bullseye. Whether our shot is above, below, to the left, or to the right of the bullseye, it doesn't matter; we are only interested in its distance from the center. For example, if our opponent's shot landed 10-inches to the left of the bullseye, and ours landed 10-inches to the right (I never said we were good at darts), we'd **both** verbalize that we're 10-inches away from the bullseye. Therefore, we share the same absolute value as our opponent with respect to the bullseye despite our opponent's dart landing to the left and our's landing to the right.
 
-<figure>
-  <picture>
-    <source
-      srcset="../../assets/images/dark/posts/going-back-to-school/dart-board.svg"
-      media="(prefers-color-scheme: dark)"
-    />
-    <img
-      class="excalidraw"
-      style="margin: 0 auto; padding: 32px 0; max-width: 400px"
-      width="75%"
-      alt="A dartboard with two arrows; one 10-inches to the left of the bullseye, and the other 10-inches to the right of the bullseye."
-      src="../../assets/images/light/posts/going-back-to-school/dart-board.svg"
-    />
-  </picture>
-  <figcaption>
-    Absolute values visualized on a dartboard.
-  </figcaption>
-</figure>
+<img
+  alt="A dartboard with two arrows; one 10-inches to the left of the bullseye, and the other 10-inches to the right of the bullseye."
+  src="../../assets/images/posts/going-back-to-school/dart-board.svg"
+/>
 
 What you might have noticed is that this is essentially what our inequality is asking us! If you recall, our inequality was:
 
@@ -122,45 +108,18 @@ $$
 
 If we were to visualize this inequality using the dartboard analogy, it would be similar to drawing a circle with a 10-inch radius centered at the bullseye. In essence, our inequality is asking us where we should aim so that our dart lands somewhere inside that 10-inch circle. Regardless of if the dart lands above, below, or to either side of the bullseye, as long as it is _somewhere_ within 10-inches of the bullseye, we have satisfied the condition.
 
-<figure>
-  <picture>
-    <source
-      srcset="../../assets/images/dark/posts/going-back-to-school/dart-board-with-circle.svg"
-      media="(prefers-color-scheme: dark)"
-    />
-    <img
-      class="excalidraw"
-      style="margin: 0 auto; padding: 32px 0; max-width: 250px"
-      width="75%"
-      alt="A dartboard with a 10-inch radius circle drawn from the center bullseye."
-      src="../../assets/images/light/posts/going-back-to-school/dart-board-with-circle.svg"
-    />
-  </picture>
-  <figcaption>
-    -10 < x < 10 visualized on a dartboard
-  </figcaption>
-</figure>
+<img
+  alt="A dartboard with a 10-inch radius circle drawn from the center bullseye."
+  src="../../assets/images/posts/going-back-to-school/dart-board-with-circle.svg"
+/>
 
 Now, taking this analogy and applying it to the number line looks as follows:
 
-<figure>
-  <picture>
-    <source
-      srcset="../../assets/images/dark/posts/going-back-to-school/number-line.svg"
-      media="(prefers-color-scheme: dark)"
-    />
-    <img
-      class="excalidraw"
-      style="display: block; margin: 0 auto; padding: 32px 0"
-      width="95%"
-      alt="A number line with two endpoints at -10 and 10, non-inclusive, forming a line to represent an inequality less than 10."
-      src="../../assets/images/light/posts/going-back-to-school/number-line.svg"
-    />
-  </picture>
-  <figcaption>
-    -10 < x < 10 expressed on the number line
-  </figcaption>
-</figure>
+<img
+  class="full-width"
+  alt="A number line with two endpoints at -10 and 10, non-inclusive, forming a line to represent an inequality less than 10."
+  src="../../assets/images/posts/going-back-to-school/number-line.svg"
+/>
 
 The only difference between this number line and the dartboard is that the number line is one dimensional, whereas the dartboard is two dimensional. That is, darts can land above, below, to the left, or to the right of the bullseye, but points on a number line can only be plotted to the left or right of 0.
 
@@ -228,23 +187,10 @@ However, now that I was taking notes digitally, using different pen colors was a
 
 Maybe the most fundamental shift in my note taking was never erasing my mistakes. Instead, I would keep the mistake and correct it in bright red ink to the side (with a detailed explanation of where I went wrong). By keeping my mistakes, it allowed me to revisit them at a later time and serve as an example of something I need to avoid doing. This served as a great study tool, and most importantly, a way of learning.
 
-<figure>
-  <picture style="display: block;">
-    <source
-      srcset="../../assets/images/dark/posts/going-back-to-school/note-example.png"
-      media="(prefers-color-scheme: dark)"
-    />
-    <img
-      class="excalidraw"
-      style="max-width: 400px; width: 100%"
-      alt="An example showing how I color-code my notes. Subsection headings are colored purple, concepts are colored black, practice problems are colored pink, and mistakes are colored in red."
-      src="../../assets/images/light/posts/going-back-to-school/note-example.png"
-    />
-  </picture>
-  <figcaption>
-    An example of how I took notes.
-  </figcaption>
-</figure>
+<img
+  alt="An example showing how I color-code my notes. Subsection headings are colored purple, concepts are colored black, practice problems are colored pink, and mistakes are colored in red."
+  src="../../assets/images/posts/going-back-to-school/note-example.png"
+/>
 
 ## Takeaways From My Experience
 

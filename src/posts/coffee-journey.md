@@ -65,7 +65,7 @@ At this point, I was determined to learn how to brew specialty coffee at home so
     coffee.
   </summary>
 
-  <div class="expanded-content">
+  <div>
     <ul>
       <li>
         Coffee is a fruit that comes from a plant

@@ -14,7 +14,7 @@ I created this website to document my journeys and serve as a way for others to 
 <details>
 <summary>I was a shy kid</summary>
 
-<div class="expanded-content">
+<div>
 
 <p>
 I attended a small elementary school in Clifton, Virginia. I was quiet, shy, and a homebody who couldn't wait to get home after a long day of school to devour a sleeve of Oreos while watching television.
@@ -32,7 +32,7 @@ Now of days, though, I love good conversations and meeting new people.
 <details>
 <summary>I loved the Internet</summary>
 
-<div class="expanded-content">
+<div>
 
 <p>
 Unlike most of my peers, I didn't invest much time into video games (except for RuneScape, which will always have a special place in my heart). Instead, I was usually surfing the web whilst creating my own digital footprint.
@@ -54,7 +54,7 @@ In retrospect, it's fitting that I ended up with a career in web development.
 <details>
 <summary>I played baseball</summary>
 
-<div class="expanded-content">
+<div>
 <p>
 I played Little League Baseball starting in my early years of grade school. I traveled around the state of Virginia with my teammates to compete in a variety of tournaments, which heavily influenced my free time and social circles. Baseball practically became a separate lifestyle outside of school.
 </p>
@@ -75,7 +75,7 @@ Although baseball was a stressful, time-consuming activity, I walked away with a
 <details>
 <summary>I studied information technology in college</summary>
 
-<div class="expanded-content">
+<div>
 
 <p>
 I attended <a target="_blank" href="https://www.vt.edu">Virginia Tech</a> in Blacksburg, Virginia. I took my studies very seriously. By the time I graduated, I had come to realize that I <i>love</i> learning, especially about technology.
@@ -89,7 +89,7 @@ I attended <a target="_blank" href="https://www.vt.edu">Virginia Tech</a> in Bla
 <details>
 <summary>I got my first job as a web developer</summary>
 
-<div class="expanded-content">
+<div>
 
 <p>
 I got my first job as a web developer in the Washington, D.C. metropolitan area. I spent my first day happily and willingly staying after work with a colleague to inspect our <a target="_blank" href="https://chat.openai.com/share/4649cf74-641b-4feb-956e-5cee35169fbb">web application's network traffic</a>, solely to appease my own curiosity and fascination; I loved my team and what we did.
@@ -103,7 +103,7 @@ I got my first job as a web developer in the Washington, D.C. metropolitan area.
 <details>
 <summary>I relocated to Austin, Texas</summary>
 
-<div class="expanded-content">
+<div>
 
 <p>
 I desperately wanted to relocate out of the Washington, D.C. metropolitan area. Two years into my first job, I felt like it was finally time. I eventually I deemed Austin and Phoenix my two candidates. After some phone calls, research, and nerves, I decided to move to Austin, and I couldn't be more happy.
@@ -132,7 +132,7 @@ In no particular order, here are some of my favorite things about where I live:
 <details>
 <summary>I enrolled as a part-time computer science student</summary>
 
-<div class="expanded-content">
+<div>
 <p>
 Although I have a degree in information technology, I've always wanted to peel back another layer of the onion and gain a deeper understanding of the fundamental theories and principles of computation.
 <p>

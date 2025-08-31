@@ -1,0 +1,77 @@
+html {
+  --bg: white;
+  --text-color: #222;
+  --nav-bg: #f5f6f7;
+  --nav-border-color: #dbddec;
+  --link-color: #0066cc;
+  --link-color-visited: #5a2ca0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.6;
+  max-width: 65ch;
+  margin: 0 auto;
+  color: var(--text-color);
+  background: var(--bg);
+}
+
+nav,
+main {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+nav {
+  display: block;
+  background: var(--nav-bg);
+  border-bottom: 0.1em solid var(--nav-border-color);
+  margin-bottom: 1em;
+  margin-top: 0;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 3rem;
+  padding: 0;
+}
+
+img {
+  display: block;
+  margin: 3rem auto;
+  background: white;
+  width: 75%;
+  object-fit: contain;
+  border-radius: 8px; /* optional: makes it look neat */
+}
+
+img.full-width {
+  width: 100%;
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:visited {
+  color: var(--link-color-visited);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    --bg: #181a1b;
+    --text-color: #e4e4e4;
+    --nav-bg: #202224;
+    --nav-border-color: #2c2f31;
+    --link-color: #4da6ff;
+    --link-color-visited: #b085f5;
+  }
+
+  .dark-emoji {
+    background: white;
+  }
+}

@@ -1,44 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include "partials/html-head.njk" %} {% block stylesheets %}
-  <link rel="preload" href="/assets/css/layouts/default.css" as="style" />
-  <link rel="stylesheet" href="/assets/css/layouts/default.css" />
-  {% endblock %}
+  {% include "partials/html-head.njk" %} {% block stylesheets %} {% endblock %}
   <body>
-    <div class="foreground">
-      <nav class="content-wrapper">
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a
-              class="{% if '/about' in page.url %}active{% endif %}"
-              href="/about">
-              About
-            </a>
-          </li>
-          <li>
-            <a
-              class="{% if '/blog' in page.url %}active{% endif %}"
-              href="/blog">
-              Blog
-            </a>
-          </li>
-          <li>
-            <a
-              class="{% if '/contact' in page.url %}active{% endif %}"
-              href="/contact">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <main class="content-wrapper">
-        {% block content %}
-        {{ content | safe }}
-        {% endblock %}
-      </main>
-    </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/about"> About </a>
+        </li>
+        <li>
+          <a href="/blog"> Blog </a>
+        </li>
+        <li>
+          <a href="/contact"> Contact </a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      {% block content %}
+      {{ content | safe }}
+      {% endblock %}
+    </main>
   </body>
 </html>
