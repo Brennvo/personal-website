@@ -10,4 +10,4 @@ description: Contact Brennan Arvo
 - <a href="mailto:brennan@brennanarvo.com">Email</a>
 - [GitHub](https://github.com/Brennvo)
 - [LinkedIn](https://www.linkedin.com/in/brennan-arvo/)
-- [Twitter](https://twitter.com/arvoweb)
+- [Twitter](https://twitter.com/brennvo1)
