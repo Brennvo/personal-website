@@ -1,5 +1,5 @@
 ---
-layout: layouts/default.njk
+layout: layouts/main.njk
 permalink: /index.html
 title: Brennan's Website
 description: Brennan Arvo's website

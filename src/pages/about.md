@@ -1,5 +1,5 @@
 ---
-layout: layouts/default.njk
+layout: layouts/main.njk
 permalink: /about/index.html
 title: About Me
 description: About Brennan Arvo
