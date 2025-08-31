@@ -1,5 +1,5 @@
 ---
-date: 2025-08-30
+date: 2025-08-31
 layout: layouts/code-blog-post.njk
 tags: post
 title: Be Careful With TypeScript Records
