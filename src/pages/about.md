@@ -65,7 +65,7 @@ This is my digital space. I created this website using a static site generator n
 <details>
   <summary>I relocated to Austin, Texas</summary>
   <p>
-  I desperately wanted to relocate out of the Washington, D.C. metropolitan area. A little over two years into my first job, I moved to Austin Texas. I couldn't be more happy.
+  I desperately wanted to relocate out of the Washington, D.C. metropolitan area. A little over two years into my first job, I moved to Austin, Texas. I couldn't be more happy.
   </p>
   <p>
   In no particular order, here are some of my favorite things about where I live:
