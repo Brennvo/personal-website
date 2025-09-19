@@ -42,7 +42,7 @@ const milk = items.milk; // ❗ milk is of type Item
 console.log(milk.category); // oops
 ```
 
-TypeScript has no issues with this code; `Record<string, Item>` literally means _every_ string key on `items` is an `Item`
+TypeScript has no issues with this code; `Record<string, Item>` literally means _every_ string key on `items` is an `Item`.
 
 Given this usage of the object map, `Items` should be typed like this:
 
