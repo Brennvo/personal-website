@@ -1,6 +1,6 @@
 # Brennan's Website
 
-https://brennanarvo.com
+https://brennvo.com
 
 ## Table of Contents
 
