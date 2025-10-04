@@ -25,25 +25,31 @@ These steps will get my personal website running on your machine.
 
 First, create a directory for the project and navigate into it:
 
-```console
+```shell
 mkdir brennvo
+```
 
+```shell
 cd ./brennvo
 ```
 
 Next, clone the repository, navigate into it, and install dependencies:
 
-```console
+```shell
 git clone https://github.com/Brennvo/personal-website.git
+```
 
+```shell
 cd ./personal-website
+```
 
+```shell
 npm install
 ```
 
 Finally, run the project:
 
-```console
+```shell
 npm run dev
 ```
 
