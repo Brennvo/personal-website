@@ -8,12 +8,21 @@ html {
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 1.6;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.65;
   max-width: 65ch;
   margin: 0 auto;
   color: var(--text-color);
   background: var(--bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.25;
 }
 
 nav,
@@ -30,6 +39,7 @@ nav {
   margin-top: 0;
   padding-top: 0.4em;
   padding-bottom: 0.4em;
+  line-height: 1.4;
 }
 
 nav ul {
