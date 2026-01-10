@@ -1,8 +1,8 @@
 html {
   --bg: white;
   --text-color: #222;
-  --nav-bg: #f5f6f7;
-  --nav-border-color: #dbddec;
+  --nav-bg: transparent;
+  --nav-border-color: rgba(34, 34, 34, 0.12);
   --link-color: #0066cc;
   --link-color-visited: #5a2ca0;
 }
@@ -34,19 +34,46 @@ main {
 nav {
   display: block;
   background: var(--nav-bg);
-  border-bottom: 0.1em solid var(--nav-border-color);
-  margin-bottom: 1em;
+  border-bottom: 0.08em solid var(--nav-border-color);
+  margin-bottom: 1.5em;
   margin-top: 0;
-  padding-top: 0.4em;
-  padding-bottom: 0.4em;
-  line-height: 1.4;
+  padding-top: 0.9em;
+  padding-bottom: 0.9em;
+  line-height: 1.2;
 }
 
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 2.5rem;
   list-style-type: none;
   padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.85rem;
+  padding-bottom: 0.15em;
+  border-bottom: 1px solid transparent;
+}
+
+nav a:visited {
+  color: var(--text-color);
+}
+
+nav a:hover,
+nav a:focus-visible {
+  border-bottom-color: currentColor;
+}
+
+nav a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 6px;
 }
 
 img {
@@ -74,8 +101,8 @@ a:visited {
   html {
     --bg: #181a1b;
     --text-color: #e4e4e4;
-    --nav-bg: #202224;
-    --nav-border-color: #2c2f31;
+    --nav-bg: transparent;
+    --nav-border-color: rgba(228, 228, 228, 0.16);
     --link-color: #4da6ff;
     --link-color-visited: #b085f5;
   }
