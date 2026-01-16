@@ -1,35 +1,43 @@
 @font-face {
   font-family: 'Lora';
-  src: url('/assets/fonts/Lora/Lora-VariableFont_wght.ttf')
-    format('truetype-variations');
-  font-weight: 400 700;
+  src: url('/assets/fonts/Lora/static/Lora-SemiBold.ttf') format('truetype');
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Lora';
-  src: url('/assets/fonts/Lora/Lora-Italic-VariableFont_wght.ttf')
-    format('truetype-variations');
-  font-weight: 400 700;
+  font-family: 'Source Sans 3';
+  src: url('/assets/fonts/Source_Sans_3/static/SourceSans3-Regular.ttf')
+    format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url('/assets/fonts/Source_Sans_3/static/SourceSans3-Italic.ttf')
+    format('truetype');
+  font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Source Sans 3';
-  src: url('/assets/fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf')
-    format('truetype-variations');
-  font-weight: 300 700;
+  src: url('/assets/fonts/Source_Sans_3/static/SourceSans3-Bold.ttf')
+    format('truetype');
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Source Sans 3';
-  src: url('/assets/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf')
-    format('truetype-variations');
-  font-weight: 300 700;
+  src: url('/assets/fonts/Source_Sans_3/static/SourceSans3-BoldItalic.ttf')
+    format('truetype');
+  font-weight: 700;
   font-style: italic;
   font-display: swap;
 }
@@ -118,7 +126,6 @@ nav a {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: 0.8rem;
-  font-weight: 600;
   padding-bottom: 0.15em;
   border-bottom: 1px solid transparent;
 }
