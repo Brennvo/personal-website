@@ -153,6 +153,11 @@ a:visited {
   color: var(--link-color-visited);
 }
 
+.welcome::before {
+  content: '☕';
+  margin-right: 0.2em;
+}
+
 @media (min-width: 900px) {
   html {
     --code-font-size: 1.2rem;

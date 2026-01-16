@@ -5,6 +5,6 @@ title: Brennan's Website
 description: Brennan Arvo's website
 ---
 
-# <span aria-hidden="true">👋🏻</span> Welcome
+# <span class="welcome">Welcome</span>
 
 A website for Brennan, created by Brennan.
