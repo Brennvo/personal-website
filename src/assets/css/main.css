@@ -1,10 +1,13 @@
 html {
   --bg: white;
   --text-color: #222;
+  --inline-code-bg: #eff2f6;
+  --inline-code-text: #102a43;
   --nav-bg: #f5f6f7;
   --nav-border-color: #dbddec;
   --link-color: #0066cc;
   --link-color-visited: #5a2ca0;
+  --block-quote-border-color: var(--nav-border-color);
 }
 
 body {
@@ -64,6 +67,8 @@ a:visited {
   html {
     --bg: #181a1b;
     --text-color: #e4e4e4;
+    --inline-code-bg: #2a2d31;
+    --inline-code-text: #f3f5f7;
     --nav-bg: #202224;
     --nav-border-color: #2c2f31;
     --link-color: #4da6ff;
@@ -73,4 +78,14 @@ a:visited {
   .dark-emoji {
     background: white;
   }
+}
+
+blockquote {
+  border-left: 2px solid var(--block-quote-border-color);
+  padding-left: 1em;
+}
+
+:not(pre) > code {
+  background: var(--inline-code-bg);
+  color: var(--inline-code-text);
 }
